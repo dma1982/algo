@@ -1,4 +1,4 @@
 algo
 ====
 
-The source code of uva
+The source code of Eular Project
