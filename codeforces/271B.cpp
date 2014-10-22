@@ -34,7 +34,6 @@ int main(int argc, char** argv)
      	 	ps[i].start = c + 1;
      	 	ps[i].end = c + t;
      	 	c = ps[i].end;
-     	 	// cout << i << ": " << ps[i].start << ", " << ps[i].end << endl;
      	 } 
 
      	 cin >> m;
