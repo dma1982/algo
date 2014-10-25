@@ -4,15 +4,20 @@ He graduated from [Jilin University](http://www.jlu.edu.cn/newjlu/), majoring in
 
 ### Interests
 
-Distributed Computing, Grid, Cloud, Project Management 
+Distributed Computing, Grid, Cloud, Project Management (PMP©) 
 
 ### Experience
 
-* **Advisory Software Engineer**: Platform Computing, an IBM company (2014/06 ~ Present) at Beijing
+* **Advisory Software Engineer**: Platform Computing, an IBM company (2014/07 ~ Present) at Beijing
+* **Team Lead of CE & L3**: Platform Computing, an IBM company (2014/06 ~ Present) at Beijing
 * **Team Lead of CE**: Platform Computing, an IBM company (2011/11 ~ 2014/06) at Beijing
 * **Software Engineer**: Platform Computing (2010/09 ~ 2011/11) at Beijing
 * **Software Engineer**: Baidu (2008/06 ~ 2010/08) at Beijing
 * **Researcher**: Platform Computing Grid Technology Research Center at Jilin University (2005/09 ~ 2008/06) at Changchun
+
+### Contacts
+
+**Phone**: 15011062542; **E-mail**: mada.jlu@hotmail.com; **MSN**: mada.jlu@hotmail.com 
 
 ### Projects
 
@@ -77,8 +82,7 @@ __Tools__: JEE, MySQL, Shark (workflow), JavaScript/Html/Css
 ### Education
 
 __Jilin University__
-Master, Computer Science and technology
-2005 – 2008
+Master, Computer Science and technology 2005 – 2008
 
 1. “Customized Plug-in Modules in Meta-scheduler CSF4 for Life Sciences Applications”, Special Issue on Life Science Grid Computing of New Generation Computing, Vol. 25-4, August 2007
 2. “VJM - A Deadlock Free Resource Co-allocation Model for Cross Domain Parallel Jobs”, HPC Asia 2007
@@ -87,10 +91,5 @@ Master, Computer Science and technology
 Parallel Jobs”, Journal of Software, pending
 
 __JiLin University__
-BS, Computer Science and technology
-2001 – 2005
+BS, Computer Science and technology 2001 – 2005
 
-1. first-class award of Computer college, 2004 ~ 2005
-2. third-class award of Computer college, 2003 ~ 2004
-3. third-class award of Computer college, 2002 ~ 2003
-4. third-class award of Computer college, 2001 ~ 2002
