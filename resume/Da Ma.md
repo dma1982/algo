@@ -49,6 +49,8 @@ a running task to yield the slot(s), which can be used to run the tasks of its d
 descendants. As local peer, worked with Toronto team on coding, bug fix and driving
 release.
 
+__Tools__: C/C++, Java, GDB, gtest, ACE
+
 __R/Python integration__
 
 R & Python are two major integration projects. IBM Platform symphony provides lots of
