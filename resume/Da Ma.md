@@ -17,7 +17,7 @@ Distributed Computing, Grid, Cloud, Project Management (PMP©)
 
 ### Contacts
 
-**Phone**: 15011062542; **E-mail**: mada.jlu@hotmail.com; **MSN**: mada.jlu@hotmail.com 
+**Phone**: N/A; **E-mail**: <mada.jlu@hotmail.com>; **MSN**: <mada.jlu@hotmail.com> 
 
 ### Projects
 
