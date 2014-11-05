@@ -1,4 +1,4 @@
-algo
+Codes
 ====
 
-The source code of online judge; such as codeforces, eular and UVA.
+The source code of algorithm/Linux/Resume and so on.
