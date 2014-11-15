@@ -1,19 +1,19 @@
 /*
-From wiki: http://en.wikipedia.org/wiki/Bus_error
- $ gcc -ansi sigbus.c -o sigbus
- $ ./sigbus 
- Bus error
- $ gdb ./sigbus
- (gdb) r
- Program received signal [[SIGBUS]], Bus error.
- 0x080483ba in main ()
- (gdb) x/i $pc
- 0x80483ba <main+54>:    mov    DWORD PTR [eax],0x2a
- (gdb) p/x $eax
- $1 = 0x804a009
- (gdb) p/t $eax & (sizeof(int) - 1)
- $2 = 1
-*/
+ * From wiki: http://en.wikipedia.org/wiki/Bus_error
+ * $ gcc -ansi sigbus.c -o sigbus
+ * $ ./sigbus 
+ * Bus error
+ * $ gdb ./sigbus
+ * (gdb) r
+ * Program received signal [[SIGBUS]], Bus error.
+ * 0x080483ba in main ()
+ * (gdb) x/i $pc
+ * 0x80483ba <main+54>:    mov    DWORD PTR [eax],0x2a
+ * (gdb) p/x $eax
+ * $1 = 0x804a009
+ * (gdb) p/t $eax & (sizeof(int) - 1)
+ * $2 = 1
+ */
 
 #include <stdlib.h>
  
