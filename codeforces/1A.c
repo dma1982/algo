@@ -6,14 +6,14 @@ typedef unsigned long long ulong;
 
 int main(int argc, char const *argv[])
 {
-	ulong m, n, a;
+    ulong m, n, a;
 
-	if (scanf("%llu %llu %llu", &m, &n, &a) != 3)
-	{
-		return -1;
-	}
+    if (scanf("%llu %llu %llu", &m, &n, &a) != 3)
+    {
+        return -1;
+    }
 
-	printf("%llu\n", F(m,a) * F(n, a));
+    printf("%llu\n", F(m,a) * F(n, a));
 
-	return 0;
+    return 0;
 }
