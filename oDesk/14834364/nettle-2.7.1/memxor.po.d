@@ -1,0 +1,1 @@
+memxor.po: memxor.s
