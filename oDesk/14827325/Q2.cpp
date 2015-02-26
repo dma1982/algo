@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -9,9 +10,9 @@ using namespace std;
 class Name
 {
 public:
-	string firstName;
-	string middleName;
-	string lastName;
+    string firstName;
+    string middleName;
+    string lastName;
 };
 
 /*
@@ -20,8 +21,8 @@ public:
 class People
 {
 public:
-	string number;
-	Name name;
+    string number;
+    Name name;
 };
 
 /*
@@ -29,13 +30,13 @@ public:
  */
 void printPeople(People p)
 {
-	cout << p.name.firstName << ", " << p.name.lastName << " ";
-	// if the middle name is emtpy, do not print it; otherwise, print initial letter
-	if (!p.name.middleName.empty())
-	{
-		cout << p.name.middleName[0] << ". -- ";
-	}
-	cout << p.number << endl;
+    cout << p.name.firstName << ", " << p.name.lastName << " ";
+    // if the middle name is emtpy, do not print it; otherwise, print initial letter
+    if (!p.name.middleName.empty())
+    {
+        cout << p.name.middleName[0] << ". -- ";
+    }
+    cout << p.number << endl;
 }
 
 /*
@@ -43,27 +44,27 @@ void printPeople(People p)
  */
 void printPeopleArray(People* ps, int len)
 {
-	People* pe = ps + len;
-	while(ps < pe)
-	{
-		printPeople(*ps);
-		ps++;
-	}
+    People* pe = ps + len;
+    while(ps < pe)
+    {
+        printPeople(*ps);
+        ps++;
+    }
 }
 
 // main function
 int main(int argc, char** argv)
 {
-	People ps[5] = 
-	{
-		{"302039823", {"Dribble", "Mick", "Flossie"}},
-		{"456739823", {"Beyonce", "Giselle", "Knowles"}},
-		{"982334567", {"Nick", "", "Xu"}},
-		{"325687289", {"Alicia", "", "Chen"}},
-		{"209856761", {"Steven", "Paul", "Jobs"}},
-	};
-	
-	printPeopleArray(ps, 5);
-	
-	return 0;
+    People ps[5] = 
+    {
+        {"302039823", {"Dribble", "Mick", "Flossie"}},
+        {"456739823", {"Beyonce", "Giselle", "Knowles"}},
+        {"982334567", {"Nick", "", "Xu"}},
+        {"325687289", {"Alicia", "", "Chen"}},
+        {"209856761", {"Steven", "Paul", "Jobs"}},
+    };
+    
+    printPeopleArray(ps, 5);
+    
+    return 0;
 }

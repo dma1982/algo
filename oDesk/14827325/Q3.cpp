@@ -20,15 +20,25 @@ public:
     int hits;
     int walks;
     int rbis;
-    
+
     string firstName;
     string lastName;
+
+    Player()
+    {
+        id = 0;
+        cnt = 0;
+        hits = 0;
+        walks = 0;
+        rbis = 0;
+    }
+
 };
 
 int main(int argc, char **argv)
 {
     string line;
-    Player ps[MAX_LEN] ={{0}};
+    Player ps[MAX_LEN];
     
     fstream data("../Team.txt", ios::in);
     
